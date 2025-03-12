@@ -2,7 +2,7 @@
 const WebSocket = require('ws')
 
 var wss = new WebSocket.Server({
-    port: 56780
+    port: 8080
 });
 
 console.log('Server ready...')
